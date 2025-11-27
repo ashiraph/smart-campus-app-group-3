@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MUST Campus Icon Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background: #f0f0f0;
+        }
+        canvas {
+            border: 2px solid #333;
+            margin: 20px;
+            border-radius: 20px;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background: #2196F3;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        button:hover {
+            background: #1976D2;
+        }
+        .info {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎨 MUST Smart Campus - App Icon Generator</h1>
+    
+    <div class="info">
+        <h3>Icon Features:</h3>
+        <ul>
+            <li>🏛️ Campus Building - Represents the university</li>
+            <li>📍 Location Pin - Symbolizes finding locations</li>
+            <li>🧭 Navigation Arrow - Represents directions</li>
+            <li>🔵 Blue Gradient - Professional, academic colors</li>
+        </ul>
+    </div>
+
+    <canvas id="iconCanvas" width="1024" height="1024"></canvas>
+    
+    <button onclick="downloadIcon()">📥 Download Icon (1024x1024)</button>
+    <button onclick="generateSmaller()">📥 Download 512x512</button>
+    
+    <div class="info">
+        <h3>📝 Next Steps:</h3>
+        <ol>
+            <li>Click "Download Icon" button above</li>
+            <li>Save as: <code>app_icon.png</code></li>
+            <li>Put it in: <code>lib/assets/icons/</code></li>
+            <li>Run the setup script</li>
+        </ol>
+    </div>
+
+    <script>
+        function drawIcon() {
+            const canvas = document.getElementById('iconCanvas');
+            const ctx = canvas.getContext('2d');
+            const size = canvas.width;
+            
+            // Background gradient
+            const gradient = ctx.createLinearGradient(0, 0, size, size);
+            gradient.addColorStop(0, '#1976D2');
+            gradient.addColorStop(1, '#2196F3');
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, size, size);
+            
+            // Campus Building
+            ctx.fillStyle = '#FFFFFF';
+            ctx.globalAlpha = 0.95;
+            
+            // Main building
+            const buildingWidth = 400;
+            const buildingHeight = 300;
+            const buildingX = (size - buildingWidth) / 2;
+            const buildingY = size / 2 - 50;
+            
+            // Building body with rounded corners
+            ctx.beginPath();
+            ctx.roundRect(buildingX, buildingY, buildingWidth, buildingHeight, 20);
+            ctx.fill();
+            
+            // Windows
+            ctx.fillStyle = '#1976D2';
+            ctx.globalAlpha = 0.7;
+            
+            // Top row windows
+            for (let i = 0; i < 3; i++) {
+                const windowX = buildingX + 60 + (i * 120);
+                const windowY = buildingY + 60;
+                ctx.beginPath();
+                ctx.roundRect(windowX, windowY, 80, 60, 8);
+                ctx.fill();
+            }
+            
+            // Bottom row windows
+            for (let i = 0; i < 3; i++) {
+                const windowX = buildingX + 60 + (i * 120);
+                const windowY = buildingY + 150;
+                ctx.beginPath();
+                ctx.roundRect(windowX, windowY, 80, 60, 8);
+                ctx.fill();
+            }
+            
+            // Door
+            ctx.fillStyle = '#1565C0';
+            ctx.globalAlpha = 0.9;
+            ctx.beginPath();
+            ctx.roundRect(buildingX + 160, buildingY + 230, 80, 70, 8);
+            ctx.fill();
+            
+            // Door handle
+            ctx.fillStyle = '#FFD700';
+            ctx.beginPath();
+            ctx.arc(buildingX + 220, buildingY + 265, 8, 0, Math.PI * 2);
+            ctx.fill();
+            
+            // Roof
+            ctx.fillStyle = '#1565C0';
+            ctx.globalAlpha = 0.9;
+            ctx.beginPath();
+            ctx.moveTo(buildingX - 40, buildingY);
+            ctx.lineTo(size / 2, buildingY - 100);
+            ctx.lineTo(buildingX + buildingWidth + 40, buildingY);
+            ctx.closePath();
+            ctx.fill();
+            
+            // Location Pin (Large and prominent)
+            ctx.globalAlpha = 1;
+            const pinX = size / 2 + 200;
+            const pinY = size / 2 - 200;
+            
+            // Pin shadow
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.2)';
+            ctx.beginPath();
+            ctx.ellipse(pinX, pinY + 180, 40, 15, 0, 0, Math.PI * 2);
+            ctx.fill();
+            
+            // Pin body
+            const pinGradient = ctx.createLinearGradient(pinX, pinY - 100, pinX, pinY + 80);
+            pinGradient.addColorStop(0, '#FF6B6B');
+            pinGradient.addColorStop(1, '#FF5252');
+            ctx.fillStyle = pinGradient;
+            
+            ctx.beginPath();
+            ctx.moveTo(pinX, pinY - 100);
+            ctx.bezierCurveTo(pinX - 60, pinY - 100, pinX - 90, pinY - 70, pinX - 90, pinY - 30);
+            ctx.bezierCurveTo(pinX - 90, pinY + 20, pinX, pinY + 80, pinX, pinY + 80);
+            ctx.bezierCurveTo(pinX, pinY + 80, pinX + 90, pinY + 20, pinX + 90, pinY - 30);
+            ctx.bezierCurveTo(pinX + 90, pinY - 70, pinX + 60, pinY - 100, pinX, pinY - 100);
+            ctx.closePath();
+            ctx.fill();
+            
+            // Pin border
+            ctx.strokeStyle = '#FFFFFF';
+            ctx.lineWidth = 8;
+            ctx.stroke();
+            
+            // Pin center circle
+            ctx.fillStyle = '#FFFFFF';
+            ctx.beginPath();
+            ctx.arc(pinX, pinY - 30, 35, 0, Math.PI * 2);
+            ctx.fill();
+            
+            // Pin center dot
+            ctx.fillStyle = '#FF5252';
+            ctx.beginPath();
+            ctx.arc(pinX, pinY - 30, 18, 0, Math.PI * 2);
+            ctx.fill();
+            
+            // Navigation Arrow
+            const arrowX = size / 2 - 220;
+            const arrowY = size / 2 - 200;
+            
+            // Arrow circle background
+            ctx.fillStyle = '#FFFFFF';
+            ctx.beginPath();
+            ctx.arc(arrowX, arrowY, 70, 0, Math.PI * 2);
+            ctx.fill();
+            
+            // Arrow border
+            ctx.strokeStyle = '#1976D2';
+            ctx.lineWidth = 6;
+            ctx.stroke();
+            
+            // North arrow
+            ctx.fillStyle = '#4CAF50';
+            ctx.beginPath();
+            ctx.moveTo(arrowX, arrowY - 45);
+            ctx.lineTo(arrowX + 20, arrowY + 5);
+            ctx.lineTo(arrowX, arrowY - 10);
+            ctx.lineTo(arrowX - 20, arrowY + 5);
+            ctx.closePath();
+            ctx.fill();
+            
+            // South arrow
+            ctx.fillStyle = '#FFFFFF';
+            ctx.strokeStyle = '#1976D2';
+            ctx.lineWidth = 3;
+            ctx.beginPath();
+            ctx.moveTo(arrowX, arrowY + 45);
+            ctx.lineTo(arrowX + 20, arrowY - 5);
+            ctx.lineTo(arrowX, arrowY + 10);
+            ctx.lineTo(arrowX - 20, arrowY - 5);
+            ctx.closePath();
+            ctx.fill();
+            ctx.stroke();
+            
+            // N letter
+            ctx.fillStyle = '#1976D2';
+            ctx.font = 'bold 32px Arial';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText('N', arrowX, arrowY - 65);
+            
+            // Bottom text
+            ctx.fillStyle = '#FFFFFF';
+            ctx.font = 'bold 72px Arial';
+            ctx.textAlign = 'center';
+            ctx.fillText('MUST', size / 2, size - 120);
+            
+            ctx.font = '48px Arial';
+            ctx.fillText('Smart Campus', size / 2, size - 60);
+        }
+        
+        function downloadIcon() {
+            const canvas = document.getElementById('iconCanvas');
+            const link = document.createElement('a');
+            link.download = 'app_icon.png';
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+        }
+        
+        function generateSmaller() {
+            const canvas = document.getElementById('iconCanvas');
+            const smallCanvas = document.createElement('canvas');
+            smallCanvas.width = 512;
+            smallCanvas.height = 512;
+            const ctx = smallCanvas.getContext('2d');
+            ctx.drawImage(canvas, 0, 0, 512, 512);
+            
+            const link = document.createElement('a');
+            link.download = 'app_icon_512.png';
+            link.href = smallCanvas.toDataURL('image/png');
+            link.click();
+        }
+        
+        // Draw icon on page load
+        drawIcon();
+    </script>
+</body>
+</html>

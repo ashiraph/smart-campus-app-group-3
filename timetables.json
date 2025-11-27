@@ -1,0 +1,600 @@
+{
+  "programs": [
+    "YEAR I MBR I",
+    "YEAR II MBR II",
+    "YEAR III MBR III",
+    "YEAR IV MBR IV",
+    "YEAR V MBR V"
+  ],
+  "timetables": {
+    "YEAR I MBR I": [
+      [
+        "",
+        "MBR I"
+      ],
+      [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      [
+        "08:00-9:00",
+        "MBR I, PHA I, BSP IPHS1121 Physiology I / Excitable tissues and circulatory system PhysiologyPAT LAB",
+        "MBR I, PHA I, BSP IPHS1121 Physiology I / Excitable tissues and circulatory system PhysiologyPAT LAB",
+        "MBR IANA1122  Histology & Cytology INalugo HalimaIMSG01",
+        "MBR IANA1122  Histology & Cytology INalugo HalimaPAT LAB",
+        "MBR I, BSP IANA1121 Gross Anatomy of Limbs and ThoraxSavino  AyesigaMLT",
+        "",
+        ""
+      ],
+      [
+        "09:00-10:00",
+        "",
+        ""
+      ],
+      [
+        "10:00-11:00",
+        "MBR I, BSP IANA1121 Gross Anatomy of Limbs and ThoraxSavino  AyesigaPAT LAB",
+        "MBR I, BNS I, BSP I, BSPC I, BNC II, BNC IDVS1106 Introduction to Political EconomyPrudence  KemigishaROOM 2",
+        "MBR ICSC1121  Computer SkillsAdones  RukundoICS LAB III",
+        "MBR I, PHA I, PHS IBCH1121  Introduction to Biochemistry THEORYApollo  Milton WesutaS403",
+        "MBR IANA1123  Human Embryology & Teratology IRonald  KamogaMLT",
+        "",
+        ""
+      ],
+      [
+        "11:00-12:00",
+        "",
+        ""
+      ],
+      [
+        "12:00-13:00",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "13:00-14:00",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "14:00-15:00",
+        "MBR I, BSP IANA1121 Gross Anatomy of Limbs and ThoraxSavino  AyesigaDissection Room",
+        "MBR I, PHA I, PHS IBCH1121  Introduction to BiochemistryApollo  Milton WesutaROOM 2",
+        "MBR I, PHA I, BSP IPHS1121 Physiology I / Excitable tissues and circulatory system PhysiologyBiochem Lab",
+        "MBR I, BSP IANA1121 Gross Anatomy of Limbs and ThoraxSavino  AyesigaDissection Room",
+        "MBR I, PHA IBCH1121  Introduction to Biochemistry PRACTICALApollo  Milton WesutaBiochem Lab",
+        "",
+        ""
+      ],
+      [
+        "15:00-16:00",
+        "",
+        ""
+      ],
+      [
+        "16:00-17:00",
+        "",
+        "",
+        "MBR IBCH1121  Introduction to BiochemistryROOM 2",
+        "",
+        ""
+      ],
+      [
+        "17:00-18:00",
+        "",
+        "",
+        "MBR I, MLS I, BNS I, BSP I, MLC I, PHS II, BNC IICMH1121  Biostatistics and DemographyE  TuryakiraMCH 1",
+        "",
+        "",
+        ""
+      ],
+      [
+        "18:00-19:00",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "19:00-20:00",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Timetable generated with MUST Central Timetabling System on 8/27/25 11:59 AM"
+      ]
+    ],
+    "YEAR II MBR II": [
+      [
+        "",
+        "MBR II"
+      ],
+      [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      [
+        "08:00-9:00",
+        "PHA II, MBR II, BNS II, PHS IIMCB2121   Introduction to Microbiology THEORYJoel  BaziraMCH 1",
+        "MLS II, BNC II, MLC II, BNS II, MBR II, PHA II, PHS IIPHA2121 Basic PharmacologyMartin  AmanyaROOM 2",
+        "MBR II, BNS II, BSP II, BSPC IIDVS2105  Political Economy of UgandaPrudence  KemigishaMCH 2",
+        "PHA II, MBR II, BNS II, PHS IIMCB2121   Introduction to Microbiology THEORYJoel  BaziraS403",
+        "",
+        "",
+        ""
+      ],
+      [
+        "09:00-10:00",
+        "",
+        "",
+        ""
+      ],
+      [
+        "10:00-11:00",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "11:00-12:00",
+        "MBR II, PHA IIBCH2121 Medical Biochemisty II /  Metabolism and Metabolic Disorders IIDeusdedit  TusubiraS403",
+        "MBR II, PHA II, BSP IIPHS2121      Physiology III THEORYPAT LAB",
+        "MBR II, PHA IIBCH2122 Hormones, Biotransformation and NutritionDeusdedit  TusubiraPLT",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "12:00-13:00",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "13:00-14:00",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "14:00-15:00",
+        "MBR II, PHA II, BSP IIPHS2121      Physiology III THEORYPLT",
+        "MBR II, PHA IIBCH2121 Medical Biochemisty II /  Metabolism and Metabolic Disorders IIDeusdedit  TusubiraBiochem Lab",
+        "",
+        "MBR II, PHA II, BSP IIPHS2121      Physiology III PRACTICALRosemary  NamayanjaMCH 1",
+        "PHA II, MBR II, BNS IIMCB2121   Introduction to Microbiology PRACTICALJoel  BaziraPAT LAB",
+        "",
+        ""
+      ],
+      [
+        "15:00-16:00",
+        "",
+        "",
+        ""
+      ],
+      [
+        "16:00-17:00",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "17:00-18:00",
+        "",
+        "",
+        "MBR II, PHA II, PHS II, BNS II, BNC II, MLS II, MLC IIPHA2121 Basic PharmacologyMartin  AmanyaMCH 1",
+        "",
+        "",
+        ""
+      ],
+      [
+        "18:00-19:00",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "19:00-20:00",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Timetable generated with MUST Central Timetabling System on 8/27/25 11:59 AM"
+      ]
+    ],
+    "YEAR III MBR III": [
+      [
+        "",
+        "AB- MED/PCH"
+      ],
+      [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      [
+        "08:00-9:00",
+        "MED3111 Internal Medicine - Theory IAdrian KayanjaMCH-LR",
+        "PCH3111 Paediatrics and Child Health Theory IPeter  A. KalubiPostgraduate Room 1",
+        "Simulation PracticalsSimulation LAB",
+        "PCH3111 Paediatrics and Child Health Theory IPeter  A. KalubiS311",
+        "MED3111 Internal Medicine - Theory IAdrian KayanjaMCH-LR",
+        "",
+        ""
+      ],
+      [
+        "09:00-10:00",
+        "",
+        ""
+      ],
+      [
+        "10:00-11:00",
+        "MBR IIIOBG3112 / SUG3112  /PCH3112 /MED3112Joseph  Ngonzi, Adrian KayanjaWards",
+        "MBR IIISUG3112  / OBG3112 /PCH3112 /MED3112Rose  MuhindoWards",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "11:00-12:00",
+        "MBR IIIPAT3111 Systemic Pathology IRaymond  AtwinePAT LAB",
+        "MBR IIIOBG3112 / SUG3112  /PCH3112 /MED3112Joseph  NgonziWards",
+        "MBR IIIPCH3112 / SUG3112  / OBG3112 / MED3112Rose  MuhindoWards",
+        "",
+        ""
+      ],
+      [
+        "12:00-13:00",
+        "",
+        "",
+        ""
+      ],
+      [
+        "13:00-14:00",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "14:00-15:00",
+        "MBR IIISUG3112  / OBG3112 /PCH3112 /MED3112Rose  MuhindoWards",
+        "MBR III, MLS III, PHS III, PHA III, BNS III*****GRAND   ROUND ****",
+        "MBR III, BNS III, PHA III, MLS III, PHS III, BNC IIIPHA3122    Chemotherapy, Cytoxic agents and ImmunopharmacologyOloro  JosephPAT LAB",
+        "MBR IIIPAT3111 Systemic Pathology IRaymond  AtwinePAT LAB",
+        "MED3111 Internal Medicine - Theory I TUTORIALMCH-LR",
+        "",
+        ""
+      ],
+      [
+        "15:00-16:00",
+        "",
+        ""
+      ],
+      [
+        "16:00-17:00",
+        "MBR III, BNS III, PHA III, MLS III, PHS III, BNC IIIPHA3122    Chemotherapy, Cytoxic agents and ImmunopharmacologyOloro  JosephPAT LAB",
+        "MBR III, BNS IIICMH3111 Control of Communicable Diseases and Environmental HealthFrancis  BajunirweS403",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "17:00-18:00",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "18:00-19:00",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "19:00-20:00",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Timetable generated with MUST Central Timetabling System on 8/27/25 11:59 AM"
+      ]
+    ],
+    "YEAR IV MBR IV": [
+      [
+        "",
+        "MBR IV"
+      ],
+      [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      [
+        "08:00-9:00",
+        "MBR IVDER4101 Dermatology and VenereologyGrace  Kitunzi MulyowaPostgraduate Room 1",
+        "MBR IV, BNS IVCMH4112 Maternal and Child HealthMLT",
+        "MBR IVFME4111   Introduction to Family Medicine and Community PracticeVincent  MubangiziBiochem Lab",
+        "MBR IV, BNS IVREM4111 Rehabilitation MedicineHerman  KazibweMLT",
+        "MBR IV, PHA IIICMH4111  Research MethodsMoses  NtaroS310",
+        "",
+        ""
+      ],
+      [
+        "09:00-10:00",
+        "",
+        ""
+      ],
+      [
+        "10:00-11:00",
+        "MBR IV, BNS IV, BNC IIIMED4112 Palliative CareBankunda Gideon MbonigabaMCH 2",
+        "MBR IVPCY4111 Psychiatry I Ward RoundScholastic  AshabaPsychiatric Ward",
+        "MBR IVPCY4111 Psychiatry I Ward RoundScholastic  AshabaPsychiatric Ward",
+        "MBR IVPCY4111 Psychiatry I Ward RoundScholastic  AshabaPsychiatric Ward",
+        "MBR IVPCY4111 Psychiatry I Ward RoundScholastic  AshabaPsychiatric Ward",
+        "",
+        ""
+      ],
+      [
+        "11:00-12:00",
+        "MBR IVFME4111   Introduction to Family Medicine and Community PracticeVincent  MubangiziS403",
+        ""
+      ],
+      [
+        "12:00-13:00",
+        "",
+        ""
+      ],
+      [
+        "13:00-14:00",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "14:00-15:00",
+        "MBR IVCMH4111  Research MethodsJerome KabakyengaMLT",
+        "MBR V, MBR IV, BNS IV, PHA IVGRAND ROUNDPLT",
+        "MBR IVMED4113  Ethics and professionalismIMS103",
+        "MBR IVPCY4111 Psychiatry IScholastic  AshabaS311",
+        "MBR IVPAT4111 Forensic MedicineRaymond  AtwineIMSG04",
+        "",
+        ""
+      ],
+      [
+        "15:00-16:00",
+        "",
+        ""
+      ],
+      [
+        "16:00-17:00",
+        "MBR IVPAT4111 Forensic MedicineIMS102",
+        "MBR IV, BNS IVCMH4112 Maternal and Child HealthPLT",
+        "",
+        ""
+      ],
+      [
+        "17:00-18:00",
+        "",
+        "",
+        "",
+        "MBR IVPAT4111 Forensic MedicinePLT",
+        "",
+        ""
+      ],
+      [
+        "18:00-19:00",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "19:00-20:00",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Timetable generated with MUST Central Timetabling System on 8/27/25 11:59 AM"
+      ]
+    ],
+    "YEAR V MBR V": [
+      [
+        "",
+        "AB-MED/PCH"
+      ],
+      [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      [
+        "08:00-9:00",
+        "Simulation",
+        "MED5111 Internal Medicine - Theory II THEORYAdrian KayanjaMCH-LR",
+        "PCH5111 Paediatrics and Child Health - Theory IIFaculty of Science Computer Lab",
+        "MED5111 Internal Medicine - Theory II THEORYAdrian KayanjaMCH-LR",
+        "PCH5111 Paediatrics and Child Health - Theory IITV ROOM",
+        "",
+        ""
+      ],
+      [
+        "09:00-10:00",
+        "MBR VBSD5111 Busines Skilling and EntrepreneurshipPLT",
+        ""
+      ],
+      [
+        "10:00-11:00",
+        "MBR VOBG5112 /SUG5112  /PCH5112 /MED5112Musa  Kayondo, Kisitu Dan, Peter  A. KalubiMedical Ward",
+        "MBR VOBG5112 /SUG5112  /PCH5112 /MED5112Kisitu Dan, Musa  Kayondo, Peter  A. KalubiMedical Ward",
+        "MBR VOBG5112 /SUG5112  /PCH5112 /MED5112Kisitu Dan, Peter  A. Kalubi, Adrian Kayanja, Joseph  NgonziOBG Ward",
+        "MBR VOBG5112 /SUG5112  /PCH5112 /MED5112Kisitu Dan, Peter  A. Kalubi, Musa  Kayondo, Adrian KayanjaPaediatric Ward",
+        "MBR VOBG5112 /SUG5112  /PCH5112 /MED5112Kisitu Dan, Musa  Kayondo, Peter  A. Kalubi, Adrian KayanjaOBG Ward",
+        ""
+      ],
+      [
+        "11:00-12:00",
+        ""
+      ],
+      [
+        "12:00-13:00",
+        "",
+        ""
+      ],
+      [
+        "13:00-14:00",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "14:00-15:00",
+        "MBR VCMH5111 Occupational HealthMoses  NtaroPostgraduate Room 1",
+        "MBR V, MBR IV, BNS IV, PHA IVGRAND ROUNDPLT",
+        "MBR VOBG5112 /SUG5112  /PCH5112 /MED5112Kisitu Dan, Musa  Kayondo, Peter  A. Kalubi, Adrian KayanjaOBG Ward",
+        "MBR VOBG5112 /SUG5112  /PCH5112 /MED5112Kisitu Dan, Peter  A. Kalubi, Musa  Kayondo, Adrian KayanjaOBG Ward",
+        "MBR VOBG5112 /SUG5112  /PCH5112 /MED5112Kisitu Dan, Musa  Kayondo, Peter  A. Kalubi, Adrian KayanjaMedical Ward",
+        "",
+        ""
+      ],
+      [
+        "15:00-16:00",
+        "",
+        ""
+      ],
+      [
+        "16:00-17:00",
+        "",
+        "",
+        ""
+      ],
+      [
+        "17:00-18:00",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "18:00-19:00",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "19:00-20:00",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Timetable generated with MUST Central Timetabling System on 8/27/25 11:59 AM"
+      ]
+    ]
+  }
+}
